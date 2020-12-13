@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsy - Login</title>
+    <link href="./css/login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Snas:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="im">
+                <a href="home.html"><img src="./img/logo.png" alt="Craftsy Logo"></a>
+                    <ul class="links">
+                        <li><a href="">smartphones</a></li>
+                        <li><a href="">tablets</a></li>
+                        <li><a href="">computadoras</a></li>
+                    </ul>
+                    <ul class="user">
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="registro.html">registro</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h5>bienvenido</h5>
+        <div class="login">
+            <form action="home.html" method="GET">
+                <div class="em">
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br>
+                </div>
+                <div class="pw">
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" name="password" id="password" placeholder="Password" required><br>
+                </div>
+                <div class="one">
+                    <input type="checkbox" name="remember" id="remember">
+                    <span>Recordarme</span>
+                </div>
+                <div class="b">
+                    <button type="submit">Ingresar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

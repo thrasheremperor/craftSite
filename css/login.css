@@ -1,0 +1,120 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    opacity: 0.6;
+    border-radius: 50%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+}
+
+body {
+    margin-top: 10px;
+    background-image: url(../img/bg-2.png);
+    background-attachment: fixed;
+}
+
+div.im {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(223, 58, 29);
+    padding: 15px;
+    width: 1160px;
+}
+
+header li {
+    display: inline;
+}
+
+ul.links a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.links {
+    float: left;
+    word-spacing: 30px;
+    padding-left: 10px;
+}
+
+ul.user {
+    text-align: right;
+    margin-left: 370px;
+}
+
+ul.user a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.user a:last-child {
+    margin-left: 15px;
+}
+
+main h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.login {
+    max-width: 400px;
+}
+
+.login label {
+    color: black;
+}
+
+#email,
+#password {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+div.em {
+    margin-top: 20px;
+}
+
+div.pw {
+    margin-top: 20px;
+}
+
+div.one {
+    margin-top: 20px;
+    text-align: right;
+}
+
+button {
+    text-decoration: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(70, 70, 255);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .7);
+}
+
+input {
+    cursor: pointer;
+}

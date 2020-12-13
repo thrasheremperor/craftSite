@@ -1,0 +1,164 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    opacity: 0.6;
+    border-radius: 50%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+}
+
+body {
+    margin-top: 10px;
+    background-image: url(../img/bg-2.png);
+    background-attachment: fixed;
+}
+
+div.im {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(223, 58, 29);
+    padding: 15px;
+    width: 1160px;
+}
+
+/* div.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+} */
+
+header li {
+    display: inline;
+}
+
+ul.links a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* margin-left: 20px; */
+}
+
+ul.links {
+    /* margin-left: 50px; */
+    float: left;
+    word-spacing: 30px;
+    padding-left: 10px;
+}
+
+ul.user {
+    text-align: right;
+    margin-left: 370px;
+}
+
+ul.user a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.user a:last-child {
+    margin-left: 15px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+main div.reg {
+    max-width: 400px;
+}
+
+#name,
+#email,
+#password {
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+div.nm,
+div.em,
+div.pw {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+select {
+    width: 50%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+div.genderForm {
+    margin-top: 20px;
+}
+
+input {
+    cursor: pointer;
+}
+
+label {
+    margin-left: 2px;
+    margin-right: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+div.hobbyForm {
+    margin-top: 20px;
+}
+
+textarea {
+    margin: 20px 0;
+    resize: none;
+    width: 80%;
+}
+
+div.terminos {
+    margin-bottom: 20px;
+}
+
+button {
+    text-decoration: none;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    background-color: rgb(70, 70, 255);
+    border: none;
+    color: white;
+    border: none;
+    display: inline;
+    cursor: pointer;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+button:hover {
+    opacity: 0.8;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .7);
+}
