@@ -4,142 +4,140 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.im a:hover{
-    border-radius: 20%;
-    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
-    color: rgba(10, 2, 0, 0.5);
-}
-
 body {
-    margin-top: 10px;
-    background-image: url(../img/bg-2.png);
+    background-image: url('../img/bg-2.png');
     background-attachment: fixed;
 }
 
-div.im{
-    display: flex;
-    align-items: center;
+.home {
+    width: 1140px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 header {
-    background-color: rgb(223, 58, 29);
+    width: 100%;
+    overflow: hidden;
+    background-color: orangered;
+    margin-top: 10px;
     padding: 15px;
-    width: 1160px;
+
+}
+
+header img {
+    float: left;
 }
 
 header li {
+    list-style: none;
     display: inline;
+    font-weight: bold;
+
 }
 
-ul.links a {
+header li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
-ul.links {
+header img:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header a:hover {
+    border-radius: 20%;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, .6);
+    opacity: .6;
+}
+
+header .links {
     float: left;
-    word-spacing: 30px;
-    padding-left: 10px;
+    padding-top: 10px;
 }
 
-ul.user {
-    text-align: right;
-    margin-left: 370px;
-}
-
-ul.user a {
-    text-decoration: none;
+header .links li {
+    display: inline;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
+    padding: 10px;
 }
 
-ul.user a:last-child {
-    margin-left: 15px;
+header .user {
+    padding-top: 10px;
+    float: right;
 }
 
+header .user li {
+    padding: 5px
+}
 
 main {
-    width: 800px;
     float: left;
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-left: 94.5px;
-    margin-bottom: 20px;
+    width: 800px;
     background-color: white;
+    margin-top: 15px;
 }
 
-main section figure {
+main section {
+    margin: 10px;
     width: 380px;
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 main section img {
     width: 380px;
 }
 
+main section:nth-child(odd) {
+    float: left;
+}
+
+main section:nth-child(even) {
+    float: right;
+}
+
 main section h2 {
+    margin: 10px 0px;
     text-transform: capitalize;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
-main section p {
-    margin-bottom: 15px;
-}
-
-.button {
+main section button {
+    background-color: red;
+    padding: 10px;
     border: none;
-    background-color: rgb(223, 58, 29);
-    height: 35px;
-    width: 80px;
-    text-decoration: none;
-    margin-bottom: 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+    margin-top: 15px;
     cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
 }
 
-.button:hover{
+main section button:hover {
     box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.6);
-    color: rgba(10, 2, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 aside {
-    max-width: 340px;
-    float: left;
-    margin-top: 40px;
+    float: right;
+    width: 320px;
+    height: 200px;
 }
 
-aside section h2 {
-    background-color: white;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: rgba(128, 128, 128, 0.37) solid 1px;
-}
-
-aside article img {
-    float: left;
-    margin-right: 10px;
-}
-
-aside section article {
-    width: 340px;
-    margin-bottom: 1px;
+aside h2 {
     background-color: white;
     padding: 5px;
-    border: rgba(128, 128, 128, 0.37) solid 1px;
-    clear: both;
-    display: flex;
-    align-items: center;
+    margin: 15px 0;
+    border: rgb(100, 154, 175) 1px solid;
+    text-transform: capitalize;
+}
+
+aside article {
+    background-color: white;
+    border: rgb(100, 154, 175) 1px solid;
+    padding: 5px;
 }
 
 aside section article:last-child {
@@ -155,20 +153,19 @@ aside section article a:hover {
     opacity: .6;
 }
 
+aside article p {
+    float: right;
+    width: 182px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
 .ad {
-    border: rgba(128, 128, 128, 0.37) solid 1px;
+    border: rgb(100, 154, 175) solid 1px;
     background-color: white;
-    max-width: 340px;
-    box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
 }
 
-.ad img {
-    width: 100%;
-    height: 250px;
-}
-
-.ad img{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.img2 {
+    margin-top: 15px;
 }
